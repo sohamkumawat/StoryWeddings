@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  
+  <title>Storyteller Weddings | Luxury Destination Wedding Photography & Cinematic Films</title>
+  <meta name="description" content="Storyteller Weddings specializes in luxury destination wedding photography and cinematic films across Pune, Mumbai, Rajasthan, Goa, and nationwide." />
+  <meta name="keywords" content="Storyteller Weddings, wedding photography Pune, destination wedding photographer India, cinematic wedding films, pre-wedding photography Pune, luxury wedding candid photography" />
+  <meta name="author" content="Storyteller Weddings" />
+  <meta name="theme-color" content="#080808" />
+
+  <!-- Open Graph / Social Sharing -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://storytellerweddings.com/" />
+  <meta property="og:title" content="Storyteller Weddings | Luxury Wedding Photography & Films" />
+  <meta property="og:description" content="Preserving raw emotion, timeless elegance, and unscripted love stories across Pune and nationwide." />
+  <meta property="og:image" content="./images/hero.jpg" />
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='0.9em' font-size='85'>💍</text></svg>" />
+
+  <!-- Tailwind CSS & Custom Stylesheet -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="styles.css" />
+
+  <!-- Schema Markup for LocalBusiness -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Storyteller Weddings",
+    "image": "https://storytellerweddings.com/images/hero.jpg",
+    "description": "Luxury destination wedding photography and cinematic films based in Pune and available nationwide.",
+    "telephone": "+919923768007",
+    "email": "storytellers.wedding@gmail.com",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Pune",
+      "addressRegion": "Maharashtra",
+      "addressCountry": "IN"
+    },
+    "areaServed": "India",
+    "priceRange": "$$$$"
+  }
+  </script>
+</head>
+<body class="bg-[#080808] text-white selection:bg-[#d4af37] selection:text-black">
+
+  <!-- Reading Progress Bar -->
+  <div class="scroll-progress"></div>
+
+  <!-- Navigation Bar -->
+  <nav id="navbar" class="fixed top-0 left-0 w-full z-50 py-5 transition-all duration-300">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between">
+      
+      <!-- Brand Logo -->
+      <a href="index.html" class="flex flex-col group">
+        <span class="font-serif text-xl sm:text-2xl lg:text-3xl tracking-[0.18em] uppercase text-white group-hover:text-[#d4af37] transition-colors">
+          Storyteller
+        </span>
+        <span class="text-[9px] sm:text-[10px] tracking-[0.4em] uppercase text-zinc-400 group-hover:text-zinc-200 transition-colors">
+          Weddings &middot; Pune
+        </span>
+      </a>
+
+      <!-- Desktop Navigation Menu -->
+      <div class="hidden md:flex items-center space-x-8 text-xs lg:text-sm tracking-widest uppercase font-medium">
+        <a href="#portfolio" class="nav-link py-1 hover:text-[#d4af37] text-zinc-300 transition-colors">Portfolio</a>
+        <a href="#films" class="nav-link py-1 hover:text-[#d4af37] text-zinc-300 transition-colors">Films</a>
+        <a href="about.html" class="nav-link py-1 hover:text-[#d4af37] text-zinc-300 transition-colors">About Us</a>
+        <a href="#book" class="btn-gold px-6 py-2.5 rounded-sm transition-all duration-300">
+          Book Now
+        </a>
+      </div>
+
+      <!-- Mobile Hamburger Button -->
+      <button id="mobile-menu-btn" class="md:hidden text-white p-2 focus:outline-none" aria-label="Toggle menu">
+        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path id="menu-icon" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+          <path id="close-icon" class="hidden" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+        </svg>
+      </button>
+
+    </div>
+
+    <!-- Mobile Drawer Overlay -->
+    <div id="mobile-menu" class="hidden fixed inset-0 bg-[#080808]/98 backdrop-blur-2xl z-40 md:hidden flex flex-col justify-center items-center">
+      <div class="flex flex-col items-center space-y-8 text-center">
+        <span class="font-serif text-2xl tracking-[0.2em] text-[#d4af37] uppercase mb-4">Storyteller Weddings</span>
+        <a href="#portfolio" class="mobile-menu-link text-xl tracking-widest uppercase font-light text-zinc-200 hover:text-[#d4af37]">Portfolio</a>
+        <a href="#films" class="mobile-menu-link text-xl tracking-widest uppercase font-light text-zinc-200 hover:text-[#d4af37]">Cinematic Films</a>
+        <a href="about.html" class="mobile-menu-link text-xl tracking-widest uppercase font-light text-zinc-200 hover:text-[#d4af37]">About Us</a>
+        <a href="#book" class="mobile-menu-link btn-gold px-8 py-3 rounded-sm text-sm">Book Your Date</a>
+        <div class="pt-8 flex gap-6 text-zinc-400">
+          <a href="https://wa.me/919923768007" target="_blank" class="hover:text-green-400 text-sm">WhatsApp</a>
+          <a href="https://www.instagram.com/_storyteller.weddings_/" target="_blank" class="hover:text-pink-400 text-sm">Instagram</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="relative w-full min-h-screen flex items-center justify-center text-center overflow-hidden pt-20 pb-16">
+    <!-- Hero Background Image -->
+    <div class="absolute inset-0 z-0">
+      <img 
+        src="./images/hero.jpg" 
+        alt="Storyteller Weddings Royal Destination Wedding Photography" 
+        class="w-full h-full object-cover hero-bg-zoom filter brightness-90"
+        loading="eager"
+      />
+      <div class="absolute inset-0 hero-overlay"></div>
+    </div>
+
+    <!-- Hero Content -->
+    <div id="hero-content" class="relative z-10 px-4 sm:px-6 max-w-5xl mx-auto flex flex-col items-center justify-center">
+      
+      <span class="text-xs sm:text-sm tracking-[0.35em] sm:tracking-[0.45em] uppercase text-[#d4af37] font-medium mb-3 sm:mb-4">
+        Pune &bull; Available Nationwide
+      </span>
+
+      <h1 class="font-serif text-4xl sm:text-6xl md:text-7xl lg:text-8xl text-white font-light tracking-wide leading-tight mb-4 sm:mb-6">
+        Every Love Story <br />
+        <span class="italic font-accent text-[#ecd9a9]">Deserves To Be Told</span>
+      </h1>
+
+      <p class="max-w-2xl text-sm sm:text-base md:text-lg text-zinc-300 font-light tracking-wider leading-relaxed mb-8 sm:mb-10">
+        Destination wedding photography and cinematic storytelling. Capturing raw tears, joyful laughter, and unscripted moments that become your timeless family legacy.
+      </p>
+
+      <!-- Action Buttons -->
+      <div class="flex flex-col sm:flex-row gap-4 sm:gap-6 w-full max-w-md justify-center">
+        <a href="#book" class="btn-gold px-8 py-3.5 rounded-sm text-xs sm:text-sm text-center">
+          Book Your Date
+        </a>
+        <a href="https://wa.me/919923768007?text=Hi%20Storyteller%20Weddings%2C%20I%20would%20like%20to%20enquire%20about%20wedding%20photography" target="_blank" rel="noopener noreferrer" class="btn-outline-gold px-8 py-3.5 rounded-sm text-xs sm:text-sm text-center flex items-center justify-center gap-2">
+          <span>💬</span> Chat On WhatsApp
+        </a>
+      </div>
+
+      <!-- Highlight Badges -->
+      <div class="mt-12 sm:mt-16 flex items-center justify-center gap-2 sm:gap-4 text-[10px] sm:text-xs tracking-[0.25em] sm:tracking-[0.35em] uppercase text-zinc-400">
+        <span>Authentic</span>
+        <span class="w-1 h-1 bg-[#d4af37] rounded-full"></span>
+        <span>Candid</span>
+        <span class="w-1 h-1 bg-[#d4af37] rounded-full"></span>
+        <span>Cinematic</span>
+        <span class="w-1 h-1 bg-[#d4af37] rounded-full"></span>
+        <span>Timeless</span>
+      </div>
+
+    </div>
+
+    <!-- Scroll Indicator -->
+    <a href="#about" class="absolute bottom-6 left-1/2 -translate-x-1/2 hidden sm:flex flex-col items-center text-zinc-500 hover:text-[#d4af37] transition-colors">
+      <span class="text-[9px] tracking-[0.3em] uppercase mb-1">Scroll</span>
+      <div class="w-px h-8 bg-gradient-to-b from-[#d4af37] to-transparent"></div>
+    </a>
+  </section>
+
+  <!-- Story & Philosophy Section -->
+  <section id="about" class="py-20 sm:py-32 px-4 sm:px-6 bg-[#0c0c0c] border-y border-white/5 relative overflow-hidden">
+    <div class="max-w-5xl mx-auto relative z-10 text-center section-reveal">
+      
+      <span class="text-xs sm:text-sm tracking-[0.35em] uppercase text-[#d4af37] font-medium block mb-4">
+        The Philosophy
+      </span>
+
+      <blockquote class="font-serif text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-zinc-100 font-light leading-snug sm:leading-relaxed mb-10 sm:mb-14">
+        &ldquo;We don&rsquo;t just freeze moments on a camera. We capture the feeling in the air &mdash; the quiet glance, the uncontainable joy, and the honest, unscripted truth of two families becoming one.&rdquo;
+      </blockquote>
+
+      <p class="max-w-3xl mx-auto text-sm sm:text-base text-zinc-400 font-light leading-relaxed mb-12 sm:mb-16">
+        Based in Pune and travelling across India, <strong class="text-zinc-200">Storyteller Weddings</strong> crafts visual heirlooms that feel as genuine and breathtaking decades later as they felt on the day you made your vows.
+      </p>
+
+      <!-- Key Impact Metrics -->
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-6 sm:gap-8 pt-8 border-t border-white/10">
+        <div class="p-4">
+          <span class="block font-serif text-3xl sm:text-5xl text-[#d4af37] mb-1">500+</span>
+          <span class="text-[10px] sm:text-xs tracking-[0.25em] uppercase text-zinc-400">Weddings Documented</span>
+        </div>
+        <div class="p-4">
+          <span class="block font-serif text-3xl sm:text-5xl text-[#d4af37] mb-1">8+</span>
+          <span class="text-[10px] sm:text-xs tracking-[0.25em] uppercase text-zinc-400">Years Of Artistry</span>
+        </div>
+        <div class="p-4">
+          <span class="block font-serif text-3xl sm:text-5xl text-[#d4af37] mb-1">100%</span>
+          <span class="text-[10px] sm:text-xs tracking-[0.25em] uppercase text-zinc-400">Candid Emotions</span>
+        </div>
+        <div class="p-4">
+          <span class="block font-serif text-3xl sm:text-5xl text-[#d4af37] mb-1">Pan-India</span>
+          <span class="text-[10px] sm:text-xs tracking-[0.25em] uppercase text-zinc-400">Pune & Nationwide</span>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Curated Gallery Section -->
+  <section id="portfolio" class="py-20 sm:py-32 px-4 sm:px-6 lg:px-8 bg-[#080808]">
+    <div class="max-w-7xl mx-auto">
+      
+      <!-- Section Header -->
+      <div class="text-center mb-12 sm:mb-16 section-reveal">
+        <span class="text-xs sm:text-sm tracking-[0.35em] uppercase text-[#d4af37] font-medium block mb-2">
+          Curated Visuals
+        </span>
+        <h2 class="font-serif text-3xl sm:text-5xl md:text-6xl text-white mb-4">
+          The Portfolio Gallery
+        </h2>
+        <div class="w-16 h-0.5 bg-[#d4af37] mx-auto mb-4"></div>
+        <p class="max-w-2xl mx-auto text-sm sm:text-base text-zinc-400 font-light">
+          A glimpse into genuine moments captured through our lens &mdash; timeless weddings, candid laughs, and intimate couple portraits.
+        </p>
+
+        <!-- Category Filter Tabs -->
+        <div class="flex flex-wrap justify-center gap-2 sm:gap-3 mt-8">
+          <button class="filter-pill active" data-filter="all">All Stories</button>
+          <button class="filter-pill" data-filter="wedding">Weddings</button>
+          <button class="filter-pill" data-filter="couple">Couple Portraits</button>
+          <button class="filter-pill" data-filter="pre-wedding">Pre-Wedding</button>
+        </div>
+      </div>
+
+      <!-- Masonry Grid Container -->
+      <div id="gallery-container" class="masonry-grid mb-12">
+        <!-- Injected via JavaScript -->
+      </div>
+
+      <!-- Google Drive Archive Link -->
+      <div class="text-center pt-8">
+        <a 
+          href="https://drive.google.com/drive/folders/1NzNkML0_0P5E9dIXLGmIwUo4kynGEW8X" 
+          target="_blank" 
+          rel="noopener noreferrer"
+          class="inline-flex items-center gap-3 px-8 py-4 border border-[#d4af37]/40 hover:border-[#d4af37] text-[#ecd9a9] hover:text-white rounded-sm text-xs sm:text-sm uppercase tracking-widest transition-all duration-300 bg-white/[0.02] hover:bg-[#d4af37]/10"
+        >
+          <span>Explore Complete Google Drive Portfolio</span>
+          <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path>
+          </svg>
+        </a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Fullscreen Lightbox Modal -->
+  <div id="lightbox-modal" role="dialog" aria-modal="true">
+    <button id="lightbox-close" class="absolute top-6 right-6 text-white text-3xl p-2 hover:text-[#d4af37] transition-colors z-10" aria-label="Close lightbox">&times;</button>
+    <button id="lightbox-prev" class="absolute left-4 sm:left-8 top-1/2 -translate-y-1/2 text-white text-3xl sm:text-4xl p-3 hover:text-[#d4af37] transition-colors z-10" aria-label="Previous image">&#10094;</button>
+    <button id="lightbox-next" class="absolute right-4 sm:right-8 top-1/2 -translate-y-1/2 text-white text-3xl sm:text-4xl p-3 hover:text-[#d4af37] transition-colors z-10" aria-label="Next image">&#10095;</button>
+    
+    <div class="flex flex-col items-center max-w-5xl">
+      <img id="lightbox-img" src="" alt="Full view wedding photograph" />
+      <div class="mt-4 text-center">
+        <h4 id="lightbox-title" class="font-serif text-xl sm:text-2xl text-white"></h4>
+        <span id="lightbox-category" class="text-xs uppercase tracking-widest text-[#d4af37] block mt-1"></span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Cinematic Films Showcase Section -->
+  <section id="films" class="py-20 sm:py-32 px-4 sm:px-6 lg:px-8 bg-[#0d0d0d] border-t border-white/5">
+    <div class="max-w-7xl mx-auto">
+      
+      <div class="text-center mb-12 sm:mb-16 section-reveal">
+        <span class="text-xs sm:text-sm tracking-[0.35em] uppercase text-[#d4af37] font-medium block mb-2">
+          Motion Pictures
+        </span>
+        <h2 class="font-serif text-3xl sm:text-5xl md:text-6xl text-white mb-4">
+          Cinematic Films
+        </h2>
+        <div class="w-16 h-0.5 bg-[#d4af37] mx-auto mb-4"></div>
+        <p class="max-w-2xl mx-auto text-sm sm:text-base text-zinc-400 font-light">
+          Moving images that bring the music, laughter, and sacred promises back to life with cinema-grade depth and color.
+        </p>
+      </div>
+
+      <!-- Films Grid Container -->
+      <div id="films-container" class="grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8">
+        <!-- Injected via JavaScript -->
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Reservation / WhatsApp Booking Section -->
+  <section id="book" class="py-20 sm:py-32 px-4 sm:px-6 lg:px-8 bg-[#090909] relative">
+    <div class="max-w-4xl mx-auto">
+      
+      <div class="text-center mb-12 sm:mb-16 section-reveal">
+        <span class="text-xs sm:text-sm tracking-[0.35em] uppercase text-[#d4af37] font-medium block mb-2">
+          Let&rsquo;s Connect
+        </span>
+        <h2 class="font-serif text-3xl sm:text-5xl md:text-6xl text-white mb-4">
+          Book Your Date
+        </h2>
+        <div class="w-16 h-0.5 bg-[#d4af37] mx-auto mb-4"></div>
+        <p class="max-w-2xl mx-auto text-sm sm:text-base text-zinc-400 font-light">
+          Dates fill up well in advance during peak wedding seasons. Tell us about your vision, and we&rsquo;ll tailor an unforgettable photographic journey for you.
+        </p>
+      </div>
+
+      <!-- Form Container -->
+      <div class="bg-zinc-950/80 border border-white/10 p-6 sm:p-10 md:p-12 rounded-sm shadow-2xl backdrop-blur-sm">
+        
+        <!-- Contact Info Quick Bar -->
+        <div class="flex flex-wrap items-center justify-around gap-4 pb-8 mb-8 border-b border-white/10 text-xs sm:text-sm text-zinc-300">
+          <div class="flex items-center gap-2">
+            <span class="text-[#d4af37]">📍</span>
+            <span>Pune, Maharashtra &bull; Pan-India</span>
+          </div>
+          <div class="flex items-center gap-2">
+            <span class="text-[#d4af37]">📞</span>
+            <a href="tel:+919923768007" class="hover:text-[#d4af37]">+91 9923768007</a>
+            <span class="text-zinc-600">/</span>
+            <a href="tel:+919923768003" class="hover:text-[#d4af37]">+91 9923768003</a>
+          </div>
+          <div class="flex items-center gap-2">
+            <span class="text-[#d4af37]">✉️</span>
+            <a href="mailto:storytellers.wedding@gmail.com" class="hover:text-[#d4af37]">storytellers.wedding@gmail.com</a>
+          </div>
+        </div>
+
+        <form id="booking-form" class="grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8">
+          
+          <div class="space-y-2">
+            <label class="text-xs uppercase tracking-widest text-zinc-400">Full Name *</label>
+            <input 
+              type="text" 
+              name="name" 
+              required 
+              placeholder="e.g. Radhika Sharma"
+              class="form-input"
+            />
+          </div>
+
+          <div class="space-y-2">
+            <label class="text-xs uppercase tracking-widest text-zinc-400">WhatsApp / Phone Number *</label>
+            <input 
+              type="tel" 
+              name="whatsapp" 
+              required 
+              placeholder="+91 98765 43210"
+              class="form-input"
+            />
+          </div>
+
+          <div class="space-y-2">
+            <label class="text-xs uppercase tracking-widest text-zinc-400">Event Type *</label>
+            <select name="eventType" class="form-input bg-transparent cursor-pointer">
+              <option value="Wedding Ceremony & Reception" class="bg-black text-white">Full Wedding Ceremony &amp; Reception</option>
+              <option value="Pre-Wedding Shoot" class="bg-black text-white">Pre-Wedding Shoot</option>
+              <option value="Destination Wedding" class="bg-black text-white">Destination Wedding</option>
+              <option value="Engagement / Roka" class="bg-black text-white">Engagement / Roka</option>
+              <option value="Other Celebrations" class="bg-black text-white">Other Special Celebrations</option>
+            </select>
+          </div>
+
+          <div class="space-y-2">
+            <label class="text-xs uppercase tracking-widest text-zinc-400">Event Date *</label>
+            <input 
+              type="date" 
+              name="date" 
+              required 
+              class="form-input"
+            />
+          </div>
+
+          <div class="md:col-span-2 space-y-2">
+            <label class="text-xs uppercase tracking-widest text-zinc-400">Event City &amp; Venue *</label>
+            <input 
+              type="text" 
+              name="city" 
+              required 
+              placeholder="e.g. Pune, Mumbai, Udaipur, Goa"
+              class="form-input"
+            />
+          </div>
+
+          <div class="md:col-span-2 space-y-2">
+            <label class="text-xs uppercase tracking-widest text-zinc-400">Tell Us About Your Vision</label>
+            <textarea 
+              name="message" 
+              rows="4" 
+              placeholder="Tell us about the ceremonies, functions, aesthetic preference, or any specific details..."
+              class="form-input resize-none"
+            ></textarea>
+          </div>
+
+          <div class="md:col-span-2 pt-4">
+            <button 
+              type="submit" 
+              class="w-full btn-gold py-4 sm:py-5 text-sm sm:text-base tracking-[0.25em] font-bold rounded-sm flex items-center justify-center gap-3"
+            >
+              <span>Send Booking Enquiry via WhatsApp</span>
+              <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                <path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.711 2.598 2.664-.699c.974.532 1.839.816 2.796.816 3.18 0 5.767-2.587 5.767-5.766.001-3.18-2.585-5.767-5.767-5.767zm3.395 8.163c-.143.403-.836.772-1.163.821-.301.045-.694.067-2.222-.569-1.825-.761-2.999-2.617-3.089-2.738-.09-.121-.734-.977-.734-1.863 0-.886.463-1.321.628-1.501.165-.18.36-.225.48-.225.12 0 .24.001.345.006.111.005.26-.042.406.31.15.361.512 1.248.557 1.339.045.09.075.195.015.315-.06.12-.09.195-.18.3-.09.105-.189.234-.27.315-.09.09-.184.188-.079.368.105.18.468.772 1.004 1.25.688.613 1.269.803 1.45.893.18.09.285.075.39-.045.105-.12.45-.525.57-.705.12-.18.24-.15.405-.09.165.06 1.05.495 1.23.585.18.09.3.135.345.21.045.075.045.435-.098.838z"/>
+              </svg>
+            </button>
+            <p class="text-center text-xs text-zinc-500 mt-3">
+              Direct connection with our lead team &bull; Prompt response within 2-4 hours
+            </p>
+          </div>
+
+        </form>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Luxury Footer -->
+  <footer class="py-16 sm:py-20 px-4 sm:px-6 lg:px-8 bg-[#060606] border-t border-white/5">
+    <div class="max-w-7xl mx-auto">
+      
+      <div class="grid grid-cols-1 md:grid-cols-4 gap-10 sm:gap-12 mb-12">
+        
+        <!-- Brand Summary -->
+        <div class="md:col-span-2 space-y-4">
+          <span class="font-serif text-2xl sm:text-3xl tracking-[0.18em] uppercase text-white block">
+            Storyteller <span class="text-[#d4af37]">Weddings</span>
+          </span>
+          <p class="text-sm text-zinc-400 font-light leading-relaxed max-w-md">
+            Crafting visual heirlooms of love, culture, and raw emotion. Based in Pune, Maharashtra and preserving destination weddings across India and worldwide.
+          </p>
+          <div class="flex gap-4 pt-2">
+            <a href="https://www.instagram.com/_storyteller.weddings_/" target="_blank" rel="noopener noreferrer" class="text-xs uppercase tracking-widest text-[#d4af37] hover:text-white transition-colors">
+              Instagram: @_storyteller.weddings_
+            </a>
+          </div>
+        </div>
+
+        <!-- Quick Navigation -->
+        <div>
+          <h4 class="text-xs uppercase tracking-[0.25em] text-[#d4af37] font-semibold mb-4">Quick Links</h4>
+          <ul class="space-y-2.5 text-sm text-zinc-400">
+            <li><a href="#portfolio" class="hover:text-white transition-colors">Portfolio Gallery</a></li>
+            <li><a href="#films" class="hover:text-white transition-colors">Cinematic Films</a></li>
+            <li><a href="about.html" class="hover:text-white transition-colors">Our Philosophy &amp; Story</a></li>
+            <li><a href="#book" class="hover:text-white transition-colors">Book Your Date</a></li>
+            <li><a href="https://drive.google.com/drive/folders/1NzNkML0_0P5E9dIXLGmIwUo4kynGEW8X" target="_blank" class="hover:text-[#d4af37] transition-colors">Google Drive Archives</a></li>
+          </ul>
+        </div>
+
+        <!-- Direct Contacts -->
+        <div>
+          <h4 class="text-xs uppercase tracking-[0.25em] text-[#d4af37] font-semibold mb-4">Contact Studio</h4>
+          <ul class="space-y-2.5 text-sm text-zinc-400">
+            <li class="flex items-center gap-2">
+              <span>📍</span> <span>Pune, Maharashtra, India</span>
+            </li>
+            <li class="flex items-center gap-2">
+              <span>📞</span> <a href="tel:+919923768007" class="hover:text-white">+91 9923768007</a>
+            </li>
+            <li class="flex items-center gap-2">
+              <span>📞</span> <a href="tel:+919923768003" class="hover:text-white">+91 9923768003</a>
+            </li>
+            <li class="flex items-center gap-2">
+              <span>✉️</span> <a href="mailto:storytellers.wedding@gmail.com" class="hover:text-white">storytellers.wedding@gmail.com</a>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+
+      <div class="border-t border-white/5 pt-8 text-center flex flex-col sm:flex-row justify-between items-center gap-4 text-xs text-zinc-500">
+        <p>&copy; 2026 Storyteller Weddings. All rights reserved. | Destination Wedding Photography &amp; Films</p>
+        <p class="text-zinc-400">Crafted with passion in Pune, India</p>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- Floating Quick Actions (Instagram & WhatsApp) -->
+  <div class="floating-actions">
+    <!-- Instagram Button -->
+    <a 
+      href="https://www.instagram.com/_storyteller.weddings_/" 
+      target="_blank" 
+      rel="noopener noreferrer" 
+      class="floating-btn instagram"
+      title="Follow @_storyteller.weddings_ on Instagram"
+      aria-label="Instagram"
+    >
+      <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+        <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.204-.012 3.584-.07 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zM5.838 12c0-3.403 2.759-6.162 6.162-6.162s6.162 2.759 6.162 6.162c0 3.403-2.759 6.162-6.162 6.162s-6.162-2.759-6.162-6.162zm2.889 0c0 1.821 1.452 3.273 3.273 3.273s3.273-1.452 3.273-3.273c0-1.821-1.452-3.273-3.273-3.273s-3.273 1.452-3.273 3.273zm11.294-6.468c0 .795.645 1.44 1.44 1.44s1.44-.645 1.44-1.44-.645-1.44-1.44-1.44-1.44.645-1.44 1.44z"/>
+      </svg>
+    </a>
+
+    <!-- WhatsApp Button -->
+    <a 
+      href="https://wa.me/919923768007?text=Hi%20Storyteller%20Weddings%2C%20I%20would%20like%20to%20enquire%20about%20your%20wedding%20photography" 
+      target="_blank" 
+      rel="noopener noreferrer" 
+      class="floating-btn whatsapp"
+      title="Chat with Storyteller Weddings on WhatsApp"
+      aria-label="WhatsApp"
+    >
+      <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+        <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/>
+      </svg>
+    </a>
+  </div>
+
+  <!-- GSAP Animation Library -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+
+  <!-- Interactive JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
